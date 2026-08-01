@@ -6,3 +6,9 @@ Scenario: For instance you wanna use a different GitHub account but your termina
 	Note: replace the username and token.
 
 
+FETCH - Good practice, check first if there are changes on the main branch by running the command below:
+
+	First, download the latest information from GitHub without modifying any files
+		it fetch origin  
+	Then check whether your local main branch is behind
+		git status
