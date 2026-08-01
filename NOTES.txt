@@ -6,8 +6,11 @@ git commit -m "comment"
 git clone <repo url>
 git pull
 git checkout <commit hashed-key>
+<<<<<<< HEAD
 git branch -d <name of the branch>
 git switch -c <branchName>
+=======
+>>>>>>> 79f895d16f73883e657c4b87a9a21e7d97a4e13c
 
 
 git push origin main 
@@ -41,8 +44,11 @@ Team GitHub Workflow
 2. Update the main branch. Before starting work, get the latest changes.
 	git checkout main
 	git pull origin main
+<<<<<<< HEAD
 	
 
+=======
+>>>>>>> 79f895d16f73883e657c4b87a9a21e7d97a4e13c
 3. Create your own branch. Never work directly on main. For example, if you are implementing the login page:
 	git checkout -b feature/login or git checkout -b feature-login (depends on the naming convention of the team
 	git checkout -b feature-registration
