@@ -1,0 +1,8 @@
+Scenario: For instance you wanna use a different GitHub account but your terminal requires you to global config. Now, instead of doing it, you may fallow these steps
+1. Click your GitHub profile icon on the upper right corner and look for settings
+2. On the left sidebar menu, look for "Developer settings" which is located at the bottom part of the list
+3. Choose the "Personal Access Tokens" and choose the Tokens(classic) and name your API and generate the token
+4. on your initialized (or cloned) project type this: git remote set-url origin https://USERNAME:TOKEN@github.com/USERNAME/REPOSITORY.git 
+	Note: replace the username and token.
+
+
