@@ -1,3 +1,7 @@
+Command:
+git push origin main
+
+
 Scenario: For instance you wanna use a different GitHub account but your terminal requires you to global config. Now, instead of doing it, you may fallow these steps
 1. Click your GitHub profile icon on the upper right corner and look for settings
 2. On the left sidebar menu, look for "Developer settings" which is located at the bottom part of the list
@@ -12,3 +16,9 @@ FETCH - Good practice, check first if there are changes on the main branch by ru
 		it fetch origin  
 	Then check whether your local main branch is behind
 		git status
+
+	If there are new commits, Git will display something like:
+		On branch main
+		Your branch is behind 'origin/main' by 2 commits.
+  		(use "git pull" to update your local branch)
+		
