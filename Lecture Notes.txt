@@ -46,7 +46,7 @@ git push origin main
 FETCH - Good practice, check first if there are changes on the repo
 THESE 2 commands are use to check if there are changes made on the repo by other teammate
 	git fetch origin
-	get status
+	git status
 OR THESE
 	git fetch origin
 	git diff main origin/main
