@@ -61,6 +61,7 @@ Scenario: For instance you wanna use a different GitHub account but your termina
 4. on your initialized (or cloned) project type this: git remote set-url origin https://USERNAME:TOKEN@github.com/USERNAME/REPOSITORY.git
 	Note: replace the username and token.
 
+my change
 
 NOTE: the "main" branch is the stable collective codes pushed by all the team members. It is a best practice not to work on main but create a local branch on your local device.
 
